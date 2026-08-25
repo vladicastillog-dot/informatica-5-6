@@ -1,6 +1,6 @@
 def main ():
     print("Tacos el Moreno")
-    rating = float(input("Rate the restaurant 1-5"))
+    rating = float(input("Rate the restaurant "))
 
     if rating > 5:
         print("Incorrect value ")
