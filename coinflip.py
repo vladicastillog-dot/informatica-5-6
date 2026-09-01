@@ -3,7 +3,10 @@ import random
 def main():
         choose = int(input("heads(1) or tails(2): "))
 
+       
         ran = random.randint(1,2)
+
+
 
         if ran == 1:
             print("heads")
