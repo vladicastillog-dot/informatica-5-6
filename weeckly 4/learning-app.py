@@ -16,7 +16,7 @@ def main():
         print(f"What is {num1}+{num2}?")
         user = int(input("Your answer: "))
 
-    if user == correct:
+    if user == "correct":
         print("Hurray!!")
         attempts += 1
         print(f"attempts: {'🌟' * attempts}")
@@ -32,4 +32,4 @@ def main():
 
 
 if __name__== "__main__":
-    main()
+        main()
