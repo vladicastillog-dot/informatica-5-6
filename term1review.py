@@ -20,7 +20,8 @@ def main ():
     else:
         print("its the weekend!")
 
-    months = ["January","February","March","April","May","June","July,"Agust","September","October","November","December"]
+        months = ["January","February","March","April","May","June","July,"Agust","September","October","November","December"]
+
     print("These are the summer months:")
     print("Whan months is it? (1-12)")
     month = datetime.now().month
