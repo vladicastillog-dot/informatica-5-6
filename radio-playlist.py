@@ -22,7 +22,7 @@ def main ():
     while repeat > 0:
         print(playlist)
         song= playlist[0]
-        playlist.pop[0]
+        playlist.pop(0)
         playlist.append(song)
         repeat -= 1
         time.sleep(3)
