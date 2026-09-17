@@ -16,7 +16,7 @@ def main ():
             new_task = input("Enter new task: ")
             tasks.append(new_task)
         elif command == "complete":
-            complete_task = input("Task completed")
+            complete_task = input("Task completed: ")
             tasks.remove(complete_task)
 
 
