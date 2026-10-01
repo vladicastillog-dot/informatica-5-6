@@ -26,5 +26,6 @@ def main ():
               print("You must enter a number")
 
 
-if __name__== "__main__":
+if __name__== "__main__":4
+
     main()
