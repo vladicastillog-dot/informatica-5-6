@@ -1,3 +1,18 @@
+import random
+def start_game():
+    with open("file.txt")as word_list:
+        content = word_list.read().splitlines()
+        print(random.choice(content))
+def main():
+    start_game()
+
+if __name__=="__main__":
+   main()
+
+
+
+
+
 #def the main function
 #write the print function to say welcome to the game
 #create a txt file with all words you need
@@ -17,6 +32,6 @@
 #give the option to exit the game
 #en the main function
 #run it
-#see if it works 
+#see if it works
 #
 #
