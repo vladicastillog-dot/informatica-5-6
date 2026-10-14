@@ -2,10 +2,20 @@ import random
 def start_game():
     with open("file.txt")as word_list:
         content = word_list.read().splitlines()
-        print(random.choice(content))
+        k= random.choice(content)
+
+        print("this is your word: ")
+        x = ["_"]*len(k)
+        print(" ".join(x))
+    while True:
+        guess = input("Take a guess: ")
+        if len(guess) == 1:
+            break
+        else:
+            print("invalid guess. Try again.")
+
 def main():
     start_game()
-
 if __name__=="__main__":
    main()
 
